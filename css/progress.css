@@ -1,0 +1,243 @@
+.bar {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 15px auto;
+  width: 100%;
+  text-align: center;
+}
+
+
+.progress-hidden {
+  /*do not delete*/
+}
+
+
+.progress2,.progress3,.progress4,.progress5,.progress6,.progress7,.progress8,.progress9,.progress10,.progress11 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2,.progress-bar3,.progress-bar4,.progress-bar5,.progress-bar6,.progress-bar7,.progress-bar8,.progress-bar9,.progress-bar10,.progress-bar11 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+  background-color: #EF474F;
+  animation: progressAnimation 6s forwards;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 90%;
+    background-color: #EF476F;
+  }
+}
+
+/*css*/
+
+
+
+
+.progress-moved .progress-bar3 {
+  width: 80%;
+  background-color: #EF474F;
+  animation: progressAnimation3 6s;
+}
+
+@keyframes progressAnimation3 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 80%;
+    background-color: #EF476F;
+  }
+}
+
+/*javascript*/
+
+
+
+.progress-moved .progress-bar4 {
+  width: 60%;
+  background-color: #EF474F;
+  animation: progressAnimation4 6s;
+}
+
+@keyframes progressAnimation4 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 60%;
+    background-color: #EF476F;
+  }
+}
+
+/*bootstrap*/
+
+
+
+.progress-moved .progress-bar5 {
+  width: 85%;
+  background-color: #EF474F;
+  animation: progressAnimation5 6s;
+}
+
+@keyframes progressAnimation5 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 85%;
+    background-color: #EF476F;
+  }
+}
+
+/*jquery*/
+
+
+
+
+.progress-moved .progress-bar6 {
+  width: 50%;
+  background-color: #EF474F;
+  animation: progressAnimation6 6s;
+}
+
+@keyframes progressAnimation6 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 50%;
+    background-color: #EF476F;
+  }
+}
+
+/*php*/
+
+
+
+
+.progress-moved .progress-bar7 {
+  width: 60%;
+  background-color: #EF474F;
+  animation: progressAnimation7 6s;
+}
+
+@keyframes progressAnimation7 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 60%;
+    background-color: #EF476F;
+  }
+}
+
+/*mysql*/
+
+
+
+
+
+.progress-moved .progress-bar8 {
+  width: 70%;
+  background-color: #EF474F;
+  animation: progressAnimation8 6s;
+}
+
+@keyframes progressAnimation8 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 70%;
+    background-color: #EF476F;
+  }
+}
+
+/*photoshop*/
+
+
+
+
+
+.progress-moved .progress-bar9 {
+  width: 60%;
+  background-color: #EF474F;
+  animation: progressAnimation9 6s;
+}
+
+@keyframes progressAnimation9 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 60%;
+    background-color: #EF476F;
+  }
+}
+
+/*AI*/
+
+
+
+
+
+.progress-moved .progress-bar10 {
+  width: 20%;
+  background-color: #EF474F;
+  animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation10 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 20%;
+    background-color: #EF476F;
+  }
+}
+
+/*react*/
+
+
+
+
+.progress-moved .progress-bar11 {
+  width: 30%;
+  background-color: #EF474F;
+  animation: progressAnimation11 6s;
+}
+
+@keyframes progressAnimation11 {
+  0% {
+    width: 5%;
+    background-color: #F9BCCA;
+  }
+  100% {
+    width: 30%;
+    background-color: #EF476F;
+  }
+}
